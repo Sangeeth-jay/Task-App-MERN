@@ -1,0 +1,69 @@
+# .gitignore
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pids
+*.pid
+*.seed
+
+# Dependency directories
+node_modules/
+
+# By default, ignore the following files. Please refer to
+# https://github.com/github/gitignore/blob/master/Node.gitignore
+# for a full list of ignored files.
+
+# Ignore local environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignore Mac system files
+.DS_Store
+
+# Ignore node module package lock files
+package-lock.json
+
+# Ignore IDE config
+.idea/
+.vscode/
+.vscodeignore
+
+# Ignore Jest config
+jest.config.js
+jest.setup.js
+jest.setup.ts
+jest.teardown.js
+jest.teardown.ts
+jest.snapshotserializer.js
+jest.snapshotserializer.ts
+jest.snapshotresolver.js
+jest.snapshotresolver.ts
+
+# Ignore npm config
+.npmrc
+.npmignore
+
+# Ignore yarn config
+.yarnrc
+.yarnclean
+.yarn-integrity
+.yarn-metadata.json
+
+# Ignore parcel-bundler cache
+.parcel-cache/
+
+# Ignore storybook build
+.storybook-out/
+
+# Ignore next.js build
+.next/
+out/
+
+# Ignore output of Jupyter notebooks
+.ipynb_checkpoints
